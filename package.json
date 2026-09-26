@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-wikifeed",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Wikifeed MCP — wraps Wikimedia Feed API (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-740d1c6fe2a47409f50037a3199d5542147008bbb9d5c6730214892d1f99e44c",
-    "sourceCommit": "b0fb3c31386cf0256dcf1e2f1b3440435a87ec35"
+    "sourceHash": "v1-70c878fd78c4c2c0ac2662df3b6e053f36957fb643b07fd5ab6be31357406004",
+    "sourceCommit": "2cb50b368da3267446f2b6f6a3ddbd3d0eed3d73"
   }
 }
