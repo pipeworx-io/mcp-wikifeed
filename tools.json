@@ -1,0 +1,101 @@
+[
+  {
+    "name": "on_this_day",
+    "description": "Get historical events, births, deaths, and holidays that occurred on a given month and day across all years.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "month": {
+          "type": "string",
+          "description": "Two-digit month number (e.g., \"01\" for January, \"12\" for December)"
+        },
+        "day": {
+          "type": "string",
+          "description": "Two-digit day number (e.g., \"01\", \"15\", \"31\")"
+        }
+      },
+      "required": [
+        "month",
+        "day"
+      ]
+    }
+  },
+  {
+    "name": "featured_article",
+    "description": "Get Wikipedia's featured article for a specific date.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "year": {
+          "type": "string",
+          "description": "Four-digit year (e.g., \"2024\")"
+        },
+        "month": {
+          "type": "string",
+          "description": "Two-digit month number (e.g., \"01\", \"12\")"
+        },
+        "day": {
+          "type": "string",
+          "description": "Two-digit day number (e.g., \"01\", \"15\")"
+        }
+      },
+      "required": [
+        "year",
+        "month",
+        "day"
+      ]
+    }
+  },
+  {
+    "name": "most_read",
+    "description": "Get the most-read Wikipedia articles for a specific date.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "year": {
+          "type": "string",
+          "description": "Four-digit year (e.g., \"2024\")"
+        },
+        "month": {
+          "type": "string",
+          "description": "Two-digit month number (e.g., \"01\", \"12\")"
+        },
+        "day": {
+          "type": "string",
+          "description": "Two-digit day number (e.g., \"01\", \"15\")"
+        }
+      },
+      "required": [
+        "year",
+        "month",
+        "day"
+      ]
+    }
+  },
+  {
+    "name": "picture_of_day",
+    "description": "Get Wikipedia's picture of the day for a specific date, including title, description, and image URL.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "year": {
+          "type": "string",
+          "description": "Four-digit year (e.g., \"2024\")"
+        },
+        "month": {
+          "type": "string",
+          "description": "Two-digit month number (e.g., \"01\", \"12\")"
+        },
+        "day": {
+          "type": "string",
+          "description": "Two-digit day number (e.g., \"01\", \"15\")"
+        }
+      },
+      "required": [
+        "year",
+        "month",
+        "day"
+      ]
+    }
+  }
+]
