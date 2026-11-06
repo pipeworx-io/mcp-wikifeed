@@ -48,7 +48,7 @@
   },
   {
     "name": "most_read",
-    "description": "Get the most-read Wikipedia articles for a specific date.",
+    "description": "Get the most-read English Wikipedia articles (rank, views) for a specific date. Lists publish about a day late: recent dates return found:false with a message; use a date two or more days back.",
     "inputSchema": {
       "type": "object",
       "properties": {
